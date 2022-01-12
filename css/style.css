@@ -13,7 +13,18 @@ a{
     text-decoration: none;
 }
 
+figure{
+    display: inline-block;
+    margin: 0 0 40px;
+    width: 872px;
+}
+
+figure img{
+    margin: 0;
+}
+
 img{
+    margin-bottom: 40px;
     max-width: 100%;
 }
 
@@ -47,4 +58,50 @@ body{
 
 a:not(:last-child){
     margin-right: 25px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1170px;
+}
+
+.container h1{
+    margin: 0 0 40px;
+}
+
+.container h2, h3{
+    margin: 0 0 10px;
+}
+
+.container p{
+    margin: 0 0 40px;
+    width: 872px;
+}
+
+/* .container p:not(:last-child){
+    margin: 0 0 40px;
+} */
+
+.blocks{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f3f3f3;    
+}
+
+.container .blocks p{
+    width: 692px;
+    margin-bottom: 10px;
+}
+
+.blocks:not(:last-child){
+    margin-bottom: 40px;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+ul:not(:last-child){
+    padding-bottom: 20px;
 }
